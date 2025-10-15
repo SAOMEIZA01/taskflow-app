@@ -70,7 +70,7 @@ const Navbar = () => {
 
         {/* Sidebar */}
         <div
-          className={`absolute top-0 left-0 h-full w-64 bg-gradient-to-r from-blue-500 to-indigo-400 shadow-lg transform transition-transform duration-300 ease-in-out ${
+          className={`absolute top-0 left-0 h-full w-64 bg-gradient-to-r from-blue-600 to-indigo-400 shadow-lg transform transition-transform duration-300 ease-in-out ${
             isOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
